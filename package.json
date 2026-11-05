@@ -1,0 +1,18 @@
+{
+  "name": "es2-ci-github-actions",
+  "version": "1.0.0",
+  "description": "Pequeno programa em JavaScript com testes de unidade e GitHub Actions",
+  "main": "src/calculadora.js",
+  "scripts": {
+    "build": "node --check src/calculadora.js && node --check test/calculadora.test.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "javascript",
+    "testes",
+    "github-actions",
+    "ci"
+  ],
+  "license": "MIT"
+}
+
